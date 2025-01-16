@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      "hero-font": "Tomorrow", //by adding this it will add this in tailwind text property
+      "hero-font": "Tomorrow", //by adding this it will add this in tailwind text property.
     },
   },
   plugins: [],
