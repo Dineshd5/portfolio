@@ -1,26 +1,19 @@
 import React from "react";
-import WebsiteImg1 from "../assets/ecommerce-websites.jpg";
-import WebsiteImg2 from "../assets/food-ecommerce.jpg";
-import WebsiteImg3 from "../assets/website-blog.jpg";
-
+import CurrencyImg from "../assets/currency.png";
+import footballImg from "../assets/football.png";
 const Projects = () => {
   const config = {
     projects: [
       {
-        img: WebsiteImg1,
+        img: CurrencyImg,
         description:
           "These are some of my best projects built with React, JavaScript, HTML, and CSS.",
-        link: "https://github.com/Dineshd5",
+        link: "https://currencyconverter01.vercel.app/",
       },
       {
-        img: WebsiteImg2,
+        img: footballImg,
         description: "An E-commerce website built with the MERN stack.",
-        link: "https://github.com/Dineshd5",
-      },
-      {
-        img: WebsiteImg3,
-        description: "A food e-commerce website like Swiggy, built with React.",
-        link: "https://github.com/Dineshd5",
+        link: "https://vercel.com/dineshs-projects-83ee3177/footballcostconverter",
       },
     ],
   };
