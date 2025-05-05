@@ -20,7 +20,11 @@ const Resume = () => {
           </h1>
           <p>
             You can view my resume here:{" "}
-            <a className="btn" href={config.link} download="MyResume.pdf">
+            <a
+              className="btn text-white"
+              href={config.link}
+              download="MyResume.pdf"
+            >
               Download
             </a>
           </p>
