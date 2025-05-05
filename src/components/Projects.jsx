@@ -1,6 +1,7 @@
 import React from "react";
 import CurrencyImg from "../assets/currency.png";
 import footballImg from "../assets/football.png";
+import ButtonImg from "../assets/button.png";
 const Projects = () => {
   const config = {
     projects: [
@@ -12,8 +13,14 @@ const Projects = () => {
       },
       {
         img: footballImg,
-        description: "An E-commerce website built with the MERN stack.",
+        description:
+          "An Football turf calculator website built with the react.",
         link: "https://vercel.com/dineshs-projects-83ee3177/footballcostconverter",
+      },
+      {
+        img: ButtonImg,
+        description: "A Garments accessories website built with the react.",
+        link: "https://accessoryease.vercel.app/",
       },
     ],
   };
