@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="flex justify-between px-5 py-2 bg-primary">
       <a className="font-bold text-black" href="#">
-        Dinesh
+        <span className="text-2xl">Dinesh</span>
       </a>
       <nav className="hidden md:block">
         <ul className="flex text-white">
