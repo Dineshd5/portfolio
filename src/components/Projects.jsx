@@ -66,7 +66,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex flex-col py-20 px-5   justify-center bg-primary text-white"
+      className="flex flex-col py-20 px-5 justify-center bg-primary text-white"
     >
       <div className="w-full">
         <div className="flex flex-col px-10 py-5">
@@ -76,7 +76,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="w-full">
-        <div className="grid grid-cols-3  md:flex-row px-10 gap-5">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 px-10 gap-5">
           {config.projects.map((project, index) => (
             <div className="relative rounded-xl" key={index}>
               <img
